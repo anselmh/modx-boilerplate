@@ -1,0 +1,54 @@
+</div>
+<!-- CLOSE all html-elements (+wrapper) before this line -->
+<script type="text/cjs" data-cjssrc="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
+<script type="text/cjs">!window.jQuery && document.write(unescape('%3Cscript src="[[++base_url]]assets/templates/site/js/libs/jquery-1.5.min.js"%3E%3C/script%3E'))</script>
+<!-- Insert jQuery plugin scripts here with type="text/cjs" -->
+<!-- specify your JS/jQuery code in one of the files below or link own script files here -->
+<script type="text/cjs" data-cjssrc="[[++base_url]]assets/templates/site/js/plugins.js"></script>
+<script type="text/cjs" data-cjssrc="[[++base_url]]assets/templates/site/js/script.js"></script>
+<!--[if lt IE 7 ]>
+	<script src="[[++base_url]]assets/templates/site/js/libs/dd_belatedpng.js"></script>
+	<script> DD_belatedPNG.fix('img, .png_bg'); </script>
+<![endif]-->
+  
+<!-- Code for PIWIK Website Analytics | Please setup for your own and change URL -->
+<script type="text/cjs">
+  var pkBaseURL = (("https:" == document.location.protocol) ? "https://www.url.com/piwik/" : "http://www.url.com/piwik/");
+  document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/cjs">
+try {
+  var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 1);
+  piwikTracker.trackPageView();
+  piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript><p><img src="http://www.url.com/piwik/piwik.php?idsite=1" style="border:0" alt="" /></p></noscript>
+
+<!-- Code for Facebook XBML implementation. Cut off if not needed. Please paste your own App-ID at 'AppID' to get it working -->
+<div id="fb-root"></div>
+<script type="text/cjs">
+  window.fbAsyncInit = function() {
+    FB.init({appId: 'AppID', status: true, cookie: true,
+             xfbml: true});
+  };
+  (function() {
+    var e = document.createElement('script'); e.async = true;
+    e.src = document.location.protocol +
+      '//connect.facebook.net/en_US/all.js';
+    document.getElementById('fb-root').appendChild(e);
+  }());
+</script>
+
+<!-- mathiasbynens.be/notes/async-analytics-snippet , minified according to blog.gyoshev.net/2011/01/cutting-the-google-analytics-script-in-half/ -->
+<!-- Change UA-XXXXX-X to be your site's ID -->
+<script type="text/cjs">
+	var _gaq=_gaq||[];_gaq.push(["_setAccount","UA-XXXXXX"],["_trackPageview"]),function(a){var b=a.createElement("script");b.type="text/javascript",b.async=!0,b.src="//google-analytics.com/ga.js",a.body.appendChild(b)}(document)
+</script>
+
+<!-- control.js is loaded here to get a better website performance -->
+<script> var cjsscript = document.createElement('script');
+cjsscript.src = "[[++base_url]]assets/templates/main/js/libs/control.js";
+var cjssib = document.getElementsByTagName('script')[0];
+cjssib.parentNode.insertBefore(cjsscript, cjssib);</script>
+</body>
+</html>​

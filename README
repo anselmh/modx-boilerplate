@@ -15,5 +15,6 @@ SETUP:
 	- site_header
 	- site_footer
 5. Create the MODX template and paste code from site_template.html
-6. Customize!
-7. Test it out.
+6. Replace the Revolution .htaccess file with this one and customize 
+7. Customize all the other files!
+8. Test it out.

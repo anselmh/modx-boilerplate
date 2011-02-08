@@ -18,3 +18,18 @@ SETUP:
 6. Replace the Revolution .htaccess file with this one and customize 
 7. Customize all the other files!
 8. Test it out.
+
+
+CREDITS GO TO:
+
+ALL supporters and contributors of the great HTML5Boilerplate:
+- http://html5boilerplate.com/
+- special thanks to: Paul Irish and Divya Manian
+- https://github.com/paulirish/html5-boilerplate
+- the MODX Revolution Core team
+- Anselm Hannemann, http://anselm.novolo.de/
+
+
+BUGS and FEATURE REQUESTS:
+
+Please file all bugs, improvements or feature-requests in GitHub Issue Tracker! Thank you!

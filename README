@@ -16,6 +16,11 @@ CONTENT:
 - robots.txt
 - modernizr 2beta
 - webfontloadenhancer
+- CSS Grid 1140px
+
+HOW TO USE THE RIGHT THINGS:
+
+If you want to use the Grid system, please take the files of the "main_fluid_grid"-folder and replace the original ones with them.
 
 
 SETUP:

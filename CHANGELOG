@@ -4,3 +4,6 @@ CHANGELOG for MODX-Boilerplate
 Version:
 
 1.0		initial commit
+
+1.0.1		
++ added CSSGrid (1140px) as optional Stylesheet / site_header

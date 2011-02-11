@@ -5,6 +5,18 @@ This package can be used with MODX CMF Revolution and is thought as a basic rock
 NOTE:
 It is not a direct clone of the original HTML5Boilerplate by Paul Irish. I've stripped some content which is not needed and implemented some other speedy scripts.
 
+CONTENT:
+
+- HTML5 Boilerplate HTML Body
+- jQuery 1.5
+- control.js
+- basic CSS with reset
+- htaccess File (MODX + Boilerplate)
+- favicons / apple touch icons
+- robots.txt
+- modernizr 2beta
+- webfontloadenhancer
+
 
 SETUP:
 

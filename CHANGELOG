@@ -7,3 +7,10 @@ Version:
 
 1.0.1		
 + added CSSGrid (1140px) as optional Stylesheet / site_header
+
+1.0.2
++ added Canonical Tag for Multi-Domain setup
+* changed Charset from "utf-8" to MODX-own "++modx_charset:lcase"
+* changed meta-author to "publishedby" output from MODX
+[Thanks to Romain from 'modxcms.com/forums']
+

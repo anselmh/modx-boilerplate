@@ -14,3 +14,13 @@ Version:
 * changed meta-author to "publishedby" output from MODX
 [Thanks to Romain from 'modxcms.com/forums']
 
+1.1
+* applied some changes of HTML5Boilerplate v1.0rcstripped
+	* HTML changes (better performance)
+	* structral improvements 
+	- less code, less files
+	+ humans.txt
+* change from control.js (http://yepnopejs.com/) to yepnope.js (better integration with modernizr, easier to use)
+* changes in modernizr library (only basic html5 support, touch events, full css3, HTML5Shim + Modernizr.load/yepnope.js) / revert to modernizr 1.7
+* jQuery 1.5.1 update
++ added more apple-touch-icon examples for all i-touch-devices

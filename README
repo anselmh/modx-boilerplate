@@ -8,13 +8,12 @@ It is not a direct clone of the original HTML5Boilerplate by Paul Irish. I've st
 CONTENT:
 
 - HTML5 Boilerplate HTML Body
-- jQuery 1.5
-- control.js
+- jQuery 1.5.1
 - basic CSS with reset
 - htaccess File (MODX + Boilerplate)
 - favicons / apple touch icons
 - robots.txt
-- modernizr 2beta
+- modernizr with HTML5Shim + Modernizr.load/yepnope.js (JS-Loadhelper)
 - webfontloadenhancer
 - CSS Grid 1140px
 
@@ -36,6 +35,13 @@ SETUP:
 7. Customize all the other files!
 8. Test it out.
 
+IMPORTANT NOTICES FOR DEVELOPMENT:
+
+- yepnope.js always executes things in the order they are listed. This is very important to know because it can hurt the speed of your website critically!
+
+- If you need more than basic HTML5 support enabling with modernizer please pack your own: http://modernizr.github.com/Modernizr/2.0-beta/ I only applied Audio,Cideo,Canvas,appCache,postMessage,InputTypes,InputAttributes.  No GeolocAPI,SVG,WebGL, SMIL support is enabled, too.
+
+
 
 CREDITS GO TO:
 
@@ -43,7 +49,8 @@ ALL supporters and contributors of the great HTML5Boilerplate:
 - http://html5boilerplate.com/
 - special thanks to: Paul Irish and Divya Manian
 - https://github.com/paulirish/html5-boilerplate
-- the MODX Revolution Core team
+- https://github.com/modernizr
+- the MODX Revolution team
 - Anselm Hannemann, http://anselm.novolo.de/
 
 

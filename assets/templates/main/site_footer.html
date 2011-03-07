@@ -1,32 +1,63 @@
 </div>
 <!-- CLOSE all html-elements (+wrapper) before this line -->
-<script type="text/cjs" data-cjssrc="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
-<script type="text/cjs">!window.jQuery && document.write(unescape('%3Cscript src="[[++base_url]]assets/templates/site/js/libs/jquery-1.5.min.js"%3E%3C/script%3E'))</script>
-<!-- Insert jQuery plugin scripts here with type="text/cjs" -->
-<!-- specify your JS/jQuery code in one of the files below or link own script files here -->
-<script type="text/cjs" data-cjssrc="[[++base_url]]assets/templates/site/js/plugins.js"></script>
-<script type="text/cjs" data-cjssrc="[[++base_url]]assets/templates/site/js/script.js"></script>
+
+<!-- Code for Google Analytics | Change UA-XXXXX-X to be your site's ID -->
+<script>
+	var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+	(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
+	g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+	s.parentNode.insertBefore(g,s)}(document,'script'));
+</script>
+
+<!-- Code for PIWIK Website Analytics | Please setup for your own and change URL -->
+<script>
+  var _paq = _paq || [];
+(function(){
+    var u=(("https:" == document.location.protocol) ? "https://www.domain.com/piwik" : "http://www.domain.com/piwik");
+    _paq.push(['setSiteId','ID']); // set 'ID' to your Piwik's site ID. e.g: '1'
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['trackPageView']);
+    var d=document,
+        g=d.createElement('script'),
+        s=d.getElementsByTagName('script')[0];
+        g.type='text/javascript';
+        g.defer=true;
+        g.async=true;
+        g.src=u+'piwik.js';
+        s.parentNode.insertBefore(g,s);
+})();
+</script>
+
+<noscript><p><img src="http://www.url.com/piwik/piwik.php?idsite=1" style="border:0" alt="" /></p></noscript>
+
+<script>
+yepnope([{
+	
+}, {
+  load: '//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js',
+  complete: function () {
+    if (!window.jQuery) {
+      yepnope('[[++base_url]]assets/templates/site/js/libs/jquery-1.5.1.min.js');
+    }
+  }
+}, {
+  load: '"[[++base_url]]assets/templates/site/js/plugins.js',
+  complete: function () {
+    jQuery(function () {
+      jQuery('div').plugin();
+    });
+  }
+}]);
+</script>
+
 <!--[if lt IE 7 ]>
-	<script src="[[++base_url]]assets/templates/site/js/libs/dd_belatedpng.js"></script>
+	<script>yepnope('[[++base_url]]assets/templates/site/js/libs/dd_belatedpng.js');</script>
 	<script> DD_belatedPNG.fix('img, .png_bg'); </script>
 <![endif]-->
-  
-<!-- Code for PIWIK Website Analytics | Please setup for your own and change URL -->
-<script type="text/cjs">
-  var pkBaseURL = (("https:" == document.location.protocol) ? "https://www.url.com/piwik/" : "http://www.url.com/piwik/");
-  document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/cjs">
-try {
-  var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 1);
-  piwikTracker.trackPageView();
-  piwikTracker.enableLinkTracking();
-} catch( err ) {}
-</script><noscript><p><img src="http://www.url.com/piwik/piwik.php?idsite=1" style="border:0" alt="" /></p></noscript>
 
 <!-- Code for Facebook XBML implementation. Cut off if not needed. Please paste your own App-ID at 'AppID' to get it working -->
 <div id="fb-root"></div>
-<script type="text/cjs">
+<script>
   window.fbAsyncInit = function() {
     FB.init({appId: 'AppID', status: true, cookie: true,
              xfbml: true});
@@ -39,19 +70,5 @@ try {
   }());
 </script>
 
-<!-- mathiasbynens.be/notes/async-analytics-snippet , minified according to blog.gyoshev.net/2011/01/cutting-the-google-analytics-script-in-half/ -->
-<!-- Change UA-XXXXX-X to be your site's ID -->
-<script type="text/cjs">
-	var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-	(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
-	g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-	s.parentNode.insertBefore(g,s)}(document,'script'));
-</script>
-
-<!-- control.js is loaded here to get a better website performance -->
-<script> var cjsscript = document.createElement('script');
-cjsscript.src = "[[++base_url]]assets/templates/main/js/libs/control.js";
-var cjssib = document.getElementsByTagName('script')[0];
-cjssib.parentNode.insertBefore(cjsscript, cjssib);</script>
 </body>
 </html>​

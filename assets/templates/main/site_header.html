@@ -1,11 +1,10 @@
-<!doctype html lang="[[++cultureKey]]" xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml" >
-<!--[if lt IE 7 ]> <html lang="[[++cultureKey]]" class="no-js ie6" xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml"> <![endif]-->
-<!--[if IE 7 ]>    <html lang="[[++cultureKey]]" class="no-js ie7" xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml"> <![endif]-->
-<!--[if IE 8 ]>    <html lang="[[++cultureKey]]" class="no-js ie8" xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml"> <![endif]-->
-<!--[if IE 9 ]>    <html lang="[[++cultureKey]]" class="no-js ie9" xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml"> <![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!--> <html lang="[[++cultureKey]]" class="no-js" xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml"> <!--<![endif]-->
-
-<!-- Initialized DOCTYPE with Facebook implementation. If not needed, please remov: xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml" -->
+<!doctype html>
+<!--[if lt IE 7 ]> <html class="no-js ie6" lang="[[++cultureKey]]"> <![endif]-->
+<!--[if IE 7 ]>    <html class="no-js ie7" lang="[[++cultureKey]]"> <![endif]-->
+<!--[if IE 8 ]>    <html class="no-js ie8" lang="[[++cultureKey]]"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="no-js" lang="[[++cultureKey]]"> <!--<![endif]-->
+<head>
+<!-- Initialized DOCTYPE without Facebook FBML implementation. If needed, please add following code to <html> element before closing tag: xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml" -->
 <head>
 	<base href="[[++site_url]]" />
 	<meta charset="[[++modx_charset:lcase]]" />
@@ -26,8 +25,6 @@
 	<link rel="shortcut icon" href="[[++site_url]]/yourpath/favicon.ico">
 	<link rel="apple-touch-icon" href="[[++site_url]]/yourpath/apple-touch-icon.png">
 
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	
 	<!-- If you use Webfonts, you use this script to detect font-smoothing. Please look at documentation how to use it: http://www.michael-van-laar.de/blog/artikel/webfont-load-enhancer/ -->
 	<script type="text/cjs" data-cjssrc="[[++site_url]]assets/templates/main/js/libs/webfontloadenhancer.min.js"></script>
 	<!-- Please load Webfontenhancer BEFORE the Webfont initialization / Webfont-CSS -->
@@ -40,8 +37,7 @@
 	<link rel="stylesheet" href="[[++site_url]]assets/templates/main/css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
 	<link rel="stylesheet" href="[[++site_url]]assets/templates/main/css/iphone4.css" media="only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5)">
 
-	<!-- Don't remove the modernizr script if you want to support old browsers -->
-	<script src="[[++site_url]]assets/templates/main/js/libs/modernizr-2b.min.js"></script>
+	<script src="[[++site_url]]assets/templates/main/js/libs/modernizr.min.js"></script>
 </head>
 <body>
 <header>

@@ -24,3 +24,6 @@ Version:
 * changes in modernizr library (only basic html5 support, touch events, full css3, HTML5Shim + Modernizr.load/yepnope.js) / revert to modernizr 1.7
 * jQuery 1.5.1 update
 + added more apple-touch-icon examples for all i-touch-devices
+
+1.1.1 (2011-03-11)
+* added a fix for Android 2.2/2.3 browsers that prevent loading of @media-queries.

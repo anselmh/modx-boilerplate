@@ -27,3 +27,6 @@ Version:
 
 1.1.1 (2011-03-11)
 * added a fix for Android 2.2/2.3 browsers that prevent loading of @media-queries.
+
+1.1.2 (2011-03-18)
++ added support for 987px "the simpler grid" system

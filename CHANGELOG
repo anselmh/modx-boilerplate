@@ -26,4 +26,11 @@ Version:
 + added more apple-touch-icon examples for all i-touch-devices
 
 1.1.1 (2011-03-11)
+<<<<<<< HEAD
 * added a fix for Android 2.2/2.3 browsers that prevent loading of @media-queries.
+=======
+* added a fix for Android 2.2/2.3 browsers that prevent loading of @media-queries.
+
+1.1.2 (2011-03-18)
++ added support for 987px "the simpler grid" system
+>>>>>>> 145f18bca84c35472c9bc315a753fef7aaacba7b

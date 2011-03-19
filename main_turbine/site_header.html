@@ -1,0 +1,47 @@
+<!doctype html lang="[[++cultureKey]]" xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml" >
+<!--[if lt IE 7 ]> <html lang="[[++cultureKey]]" class="no-js ie6" xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="[[++cultureKey]]" class="no-js ie7" xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="[[++cultureKey]]" class="no-js ie8" xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="[[++cultureKey]]" class="no-js ie9" xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="[[++cultureKey]]" class="no-js" xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml"> <!--<![endif]-->
+
+<!-- Initialized DOCTYPE with Facebook implementation. If not needed, please remov: xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml" -->
+<head>
+	<base href="[[++site_url]]" />
+	<meta charset="utf-8">
+	<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame | Remove this if you use the .htaccess -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>[[++site_name]] - [[*pagetitle]]</title>
+	<!-- change RSS ID or remove next line -->
+	<link rel="alternate" type="application/rss+xml" title="[[++site_name]] RSS Feed" href="[[~1]]">
+	<meta name="description" content="[[*introtext:empty=`[[*content:strip_tags:strip]]`:limit=`200`]]">
+	<meta name="author" content="">
+	<meta name="keywords" content="" />
+	<!-- Remove next line if you use robots.txt --> 
+	<meta name="robots" content="index, follow" />
+	<!-- Specify URL to favicon and Apple touch icon if not located in root directory ELSE delete this tags -->
+	<link rel="shortcut icon" href="[[++site_url]]/yourpath/favicon.ico">
+	<link rel="apple-touch-icon" href="[[++site_url]]/yourpath/apple-touch-icon.png">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!-- If you use Webfonts, you use this script to detect font-smoothing. Please look at documentation how to use it: http://www.michael-van-laar.de/blog/artikel/webfont-load-enhancer/ -->
+	<script type="text/cjs" data-cjssrc="[[++site_url]]assets/templates/main/js/libs/webfontloadenhancer.min.js"></script>
+	<!-- Please load Webfontenhancer BEFORE the Webfont initialization / Webfont-CSS -->
+	
+	<!-- load default CSS file. Implied media="all" -->
+	<link rel="stylesheet" href="[[++site_url]]assets/templates/main_turbine/turbine-1.1.0beta1/css.php?files=style.cssp">
+	<!-- Load CSS files with media-queries -->
+	<link rel="stylesheet" href="[[++site_url]]assets/templates/main_turbine/turbine-1.1.0beta1/css.php?files=smartphone.cssp" media="only screen and (min-device-width : 320px) and (max-device-width : 480px)">
+	<link rel="stylesheet" href="[[++site_url]]assets/templates/main_turbine/turbine-1.1.0beta1/css.php?files=ipad-portrait.cssp" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait)">
+	<link rel="stylesheet" href="[[++site_url]]assets/templates/main_turbine/turbine-1.1.0beta1/css.php?files=ipad.cssp" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+	<link rel="stylesheet" href="[[++site_url]]assets/templates/main_turbine/turbine-1.1.0beta1/css.php?files=iphone4.cssp" media="only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5)">
+
+	<!-- Don't remove the modernizr script if you want to support old browsers -->
+	<script src="[[++site_url]]assets/templates/main/js/libs/modernizr-2b.min.js"></script>
+</head>
+<body>
+<header>
+	<!-- use this wrapper for your header of website with logotype, navigation etc. -->
+</header>
+<div id="content">​

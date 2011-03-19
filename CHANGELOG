@@ -33,4 +33,13 @@ Version:
 
 1.1.2 (2011-03-18)
 + added support for 987px "the simpler grid" system
+<<<<<<< HEAD
 >>>>>>> 145f18bca84c35472c9bc315a753fef7aaacba7b
+=======
+
+1.2 (2011-03-19)
++ added accessifyhtml5.js to plugins.js ( https://github.com/yatil/accessifyhtml5.js ) [Issue: #13]
++ added CSS3PIE for IE-CSS3-properties [Issue: #5]
+- kill handheld.css (which already hadn't been referenced by me in <head> - oops) [Issue: #15]
+* improved setup docs (sorry folks, no real documentation before 1.5 as it needs a package for official RTFM in my eyes) [Issue: #12]
+>>>>>>> 1.2 (2011-03-19)

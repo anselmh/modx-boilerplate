@@ -72,6 +72,8 @@ IMPORTANT NOTICES FOR DEVELOPMENT:
 
 - I provided support for different devices with @media-queries. Please consider to either use all that stylesheet links in "site_header.html" or remove them to avoid dead links!
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 >>>>>>> 1.2 (2011-03-19)
 =======
 =======
@@ -79,6 +81,7 @@ IMPORTANT NOTICES FOR DEVELOPMENT:
 - for how-to use the modernizr please read this: http://blogs.sitepoint.com/2011/03/08/regressive-enhancement-with-modernizr-and-yepnope/
 >>>>>>> + added monderizr blog entry
 >>>>>>> + added monderizr blog entry
+>>>>>>> master
 
 
 CREDITS GO TO:

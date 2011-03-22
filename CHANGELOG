@@ -36,3 +36,8 @@ Version:
 + added CSS3PIE for IE-CSS3-properties [Issue: #5]
 - kill handheld.css (which already hadn't been referenced by me in <head> - oops) [Issue: #15]
 * improved setup docs (sorry folks, no real documentation before 1.5 as it needs a package for official RTFM in my eyes) [Issue: #12]
+
+1.3 (2011-03-22)
+* #19: moved PIE.htc to template folder
+* #17: improved IE CC for latest engine
+* #8: improved meta-author tag

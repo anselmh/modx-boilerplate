@@ -24,6 +24,14 @@ HOW TO USE THE RIGHT THINGS:
 If you want to use one of the Grid systems, please take the files of the "main_fluid_grid" / "main_978_grid" folder and replace the original ones with them.
 
 
+-----------------------------------------------------------------------------------------------------------
+WIKI / additional INSTRUCTIONS:
+
+PLEASE NOTE THAT WE NOW HAVE A WIKI ON GITHUB: https://github.com/smooth-graphics/modx-boilerplate/wiki
+-----------------------------------------------------------------------------------------------------------
+
+
+
 SETUP:
 
 1. Download all files and upload to your server in right folder structure:

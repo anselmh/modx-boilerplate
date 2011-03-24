@@ -6,8 +6,6 @@
 
 <script>
 yepnope([{
-	load: '[[++base_url]]assets/templates/main/js/scripts.js'
-}, {
 	load: '//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js',
 	complete: function () {
 		if (!window.jQuery) {
@@ -16,11 +14,7 @@ yepnope([{
 	}
 }, {
 	load: '"[[++base_url]]assets/templates/main/js/plugins.js',
-	complete: function () {
-		jQuery(function () {
-			jQuery('div').plugin();
-		});
-	}
+	load: '[[++base_url]]assets/templates/main/js/scripts.js'
 }]);
 </script>
 

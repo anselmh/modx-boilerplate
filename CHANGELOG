@@ -41,3 +41,7 @@ Version:
 * #19: moved PIE.htc to template folder
 * #17: improved IE CC for latest engine
 * #8: improved meta-author tag
+
+(2011-03-24)
+* improved yepnopejs-load of scripts.js and plugins.js
+* fixed an error with scripts.js and plugins.js load-order

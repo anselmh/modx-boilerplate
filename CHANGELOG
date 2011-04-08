@@ -45,3 +45,9 @@ Version:
 (2011-03-24)
 * improved yepnopejs-load of scripts.js and plugins.js
 * fixed an error with scripts.js and plugins.js load-order
+
+(2011-03-28)
+* fixed #22
+
+(2011-03-29)
++ added box-sizing CSS3 property to .container for small screens

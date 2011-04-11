@@ -51,3 +51,6 @@ Version:
 
 (2011-03-29)
 + added box-sizing CSS3 property to .container for small screens
+
+(2011-04-11)
+* updated to jQuery 1.5.2

@@ -50,7 +50,7 @@ SETUP:
 
 UPDATE instructions:
 
-You can update the package manually. Donwload the new package and unpack it first.
+You can update the package manually. Download the new package and unpack it first.
 You can override all files (no guarantee, please check if you've change one of them first) but not the following ones:
 - site_header.html
 - site_footer.html

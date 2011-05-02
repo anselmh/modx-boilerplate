@@ -12,6 +12,7 @@
   Creator: Anselm Hannemann
   Company: Novolo Designagentur
   Site: http://anselm.novolo.de/
+  Site: http://www.novolo.de/
   Twitter: @anselmhannemann / @novolodesign
   Location: Munich, Germany
 

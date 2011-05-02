@@ -38,6 +38,7 @@ select, input, textarea, button { font:99% sans-serif; }
 pre, code, kbd, samp { font-family: monospace, sans-serif; }
 
 html { overflow-y: scroll; }
+a:link { -webkit-tap-highlight-color: #607890; }
 a:hover, a:active { outline: none; }
 ul, ol { margin-left: 2em; }
 ol { list-style-type: decimal; }
@@ -65,9 +66,10 @@ input:invalid, textarea:invalid { border-radius: 1px; -moz-box-shadow: 0px 0px 5
 
 ::-moz-selection{ background: #607890; color:#fff; text-shadow: none; }
 ::selection { background:#607890; color:#fff; text-shadow: none; }
-a:link { -webkit-tap-highlight-color: #607890; }
 
-button {  width: auto; overflow: visible; }
+input[type="button"], button {  width: auto; overflow: visible; }
+input[type="button"]::-moz-focus-inner, button::-moz-focus-inner { border: 0; padding: 0; }
+
 .ie7 img { -ms-interpolation-mode: bicubic; }
 
 body, select, input, textarea {  color: #444; }
@@ -124,6 +126,7 @@ a:hover { color: #036; }
   pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
   thead { display: table-header-group; }
   tr, img { page-break-inside: avoid; }
+  img { max-width: 100% !important; }
   @page { margin: 0.5cm; }
   p, h2, h3 { orphans: 3; widows: 3; }
   h2, h3{ page-break-after: avoid; }

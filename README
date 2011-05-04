@@ -8,14 +8,14 @@ It is not a direct clone of the original HTML5Boilerplate by Paul Irish. I've st
 CONTENT:
 
 - HTML5 Boilerplate HTML Body
-- jQuery 1.5.1
+- jQuery 1.5.2
 - basic CSS with reset
-- htaccess File (MODX + Boilerplate)
-- favicons / apple touch icons
-- robots.txt
-- humans.txt
-- modernizr with HTML5Shim + Modernizr.load/yepnope.js (JS-Loadhelper)
-- webfontloadenhancer
+- .htaccess File (MODX + Boilerplate)
+- favicon + apple touch icons
+- robots.txt for SE-settings
+- humans.txt for credits
+- Modernizr with HTML5Shim + Modernizr.load/yepnope.js (JS-Loadhelper)
+- webfontloadenhancer by Michael van der Laar
 - CSS Grid 1140px (fluid)
 - CSS Grid 978px (fixed)
 

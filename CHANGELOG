@@ -59,3 +59,4 @@ Version:
 * updated style.css with some minor css-fixes
 * updated site_header.html: removed robots-info, etc.
 * fixed #25 (ht.access-file)
+* updated to jQuery 1.6

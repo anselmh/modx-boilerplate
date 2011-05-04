@@ -8,7 +8,7 @@ It is not a direct clone of the original HTML5Boilerplate by Paul Irish. I've st
 CONTENT:
 
 - HTML5 Boilerplate HTML Body
-- jQuery 1.5.2
+- jQuery 1.6
 - basic CSS with reset
 - .htaccess File (MODX + Boilerplate)
 - favicon + apple touch icons

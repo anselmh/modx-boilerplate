@@ -24,9 +24,11 @@
 # You may choose to make your URLs non-case-sensitive by adding a NC directive
 # to your rule: RewriteRule ^(.*)$ index.php?q=$1 [L,QSA,NC]
 
-RewriteEngine On
-RewriteBase /
-
+<IfModule mod_rewrite.c>
+	Options +FollowSymlinks
+	RewriteEngine On
+	RewriteBase /
+</IfModule>
 
 
 # Rewrite www.domain.com -> domain.com -- used with SEO Strict URLs plugin

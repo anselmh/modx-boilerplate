@@ -60,3 +60,7 @@ Version:
 * updated site_header.html: removed robots-info, etc.
 * fixed #25 (ht.access-file)
 * updated to jQuery 1.6
+
+(2011-05-17)
+* updated to jQuery 1.6.1
+* updated to PIE.htc (1.0beta4)

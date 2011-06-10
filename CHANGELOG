@@ -64,3 +64,8 @@ Version:
 (2011-05-17)
 * updated to jQuery 1.6.1
 * updated to PIE.htc (1.0beta4)
+
+(2011-06-09)
+* split into Revo and Evo repository
+(2011-06-10)
+* fixed #41

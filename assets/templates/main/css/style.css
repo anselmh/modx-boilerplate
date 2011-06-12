@@ -1,4 +1,4 @@
-/*  HTML5 ✰ Boilerplate */
+/*	MODX-Boilerplate CSS by Anselm Hannemann (www.novolo.de) based on the incredible HTML5 Boilerplate	*/
 
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -36,7 +36,6 @@ select, input, textarea, button { font:99% sans-serif; }
 pre, code, kbd, samp { font-family: monospace, sans-serif; }
 
 html { overflow-y: scroll; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; }
-a:link { -webkit-tap-highlight-color: #607890; }
 a:hover, a:active { outline: none; }
 ul, ol { margin-left: 2em; }
 ol { list-style-type: decimal; }
@@ -60,6 +59,9 @@ input:invalid, textarea:invalid { border-radius: 1px; -moz-box-shadow: 0px 0px 5
 
 ::-moz-selection{ background: #607890; color:#fff; text-shadow: none; }
 ::selection { background:#607890; color:#fff; text-shadow: none; }
+a:link { -webkit-tap-highlight-color: #607890; }
+a, a:active, a:visited { color: #607890; }
+a:hover { color: #036; }
 
 input[type="button"], button {  width: auto; overflow: visible; }
 input[type="button"]::-moz-focus-inner, button::-moz-focus-inner { border: 0; padding: 0; }
@@ -68,8 +70,6 @@ input[type="button"]::-moz-focus-inner, button::-moz-focus-inner { border: 0; pa
 
 body, select, input, textarea {  color: #444; }
 h1, h2, h3, h4, h5, h6 { font-weight: bold; }
-a, a:active, a:visited { color: #607890; }
-a:hover { color: #036; }
 	
 /* Primary Styles
     Author:
@@ -93,16 +93,7 @@ a:hover { color: #036; }
 .clearfix:after { clear: both; }
 .clearfix { zoom: 1; }
 
-
-/* media-queries | ovverride to primary styles for other media / (devices) */ 
-
-@media only screen and (min-width: 480px) {
-	
-}
-
-@media only screen and (min-width: 768px) {
-
-}
+/* media-queries | ovverride to primary styles for other media / (only print here, use separate files for mobile / tablets) */
 
 @media print {
   * { background: transparent !important; color: black !important; text-shadow: none !important; filter:none !important;
@@ -119,4 +110,3 @@ a:hover { color: #036; }
   p, h2, h3 { orphans: 3; widows: 3; }
   h2, h3{ page-break-after: avoid; }
 }
-

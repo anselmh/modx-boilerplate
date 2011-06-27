@@ -85,6 +85,7 @@ ALL supporters and contributors of the great HTML5Boilerplate:
 - https://github.com/paulirish/html5-boilerplate for the initial base and idea
 - https://github.com/modernizr for MOdernizr
 - https://github.com/yatil for https://github.com/yatil/accessifyhtml5.js
+- https://github.com/scottjehl for https://github.com/scottjehl/Respond
 - the MODX Revolution team for the whole MODX system
 - Anselm Hannemann, http://anselm.novolo.de/
 

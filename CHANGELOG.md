@@ -74,3 +74,15 @@ Version:
 (2011-06-21)
 * updated webfontloadenhancer to v1.1 #58
 * change from reset.css to normalize.css #50
+
+(2011-06-27)
+* fixed #62: added <svg> overflow fix for IE9 / Add {cursor:pointer} to <label> / Group <img> and <svg> rules in an 'embedded content' section of CSS file
+* fixed #63: <input type=search> then you're getting a search input WARNING: is unstylable in webkit now.
+* fixed #61: move x-ua to htacess to not break validation and to not let ie fall into compat-mode
+* added Chrome frame for IE6
+* fixed #54: added license information. 
+* quick fix on 978px grid
+* changes to README
+* fixed #64: Modernizr update to 2.0.6
+* fixed #53: now using own icons + added iPad retina
+* updated icon-queries

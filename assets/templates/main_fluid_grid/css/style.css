@@ -7,7 +7,7 @@ html { font-size: 100%; overflow-y: scroll; -webkit-tap-highlight-color: rgba(0,
 body { margin: 0; font-size: 13px; line-height: 1.231; }
 body, button, input, select, textarea { font-family: sans-serif; color: #222; }
 
-img { border: 0; -ms-interpolation-mode: bicubic; }
+img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
 svg:not(:root) { overflow: hidden; }
 
 ::-moz-selection { background: #607890; color: #fff; text-shadow: none; }

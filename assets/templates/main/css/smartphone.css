@@ -25,3 +25,5 @@ body{
 	float:none;
 	margin:0;
 }
+
+.iosscroll {-webkit-overflow-scrolling: touch; overflow-scrolling: touch; overflow:scroll; }

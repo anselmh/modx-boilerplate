@@ -86,3 +86,9 @@ Version:
 * fixed #64: Modernizr update to 2.0.6
 * fixed #53: now using own icons + added iPad retina
 * updated icon-queries
+
+(2011-07-01)
+* update to jQuery 1.6.2
+* Chrome Frame update to 1.0.3
+* removed print style duplicate-style
+* move to responsive media-queries (test)

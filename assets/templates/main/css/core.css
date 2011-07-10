@@ -66,16 +66,8 @@ input:invalid, textarea:invalid { background-color: #f0dddd; }
 table { border-collapse: collapse; border-spacing: 0; }
 
 body, select, input, textarea {  color: #222; }
-	
-/* Primary Styles
-    Author:
-*/
 
-
-
-
-
-
+img, video, audio, canvas, object{ max-width: 100%; height: auto; }
 
 /* Non-semantic helper classes. Please define your styles before this section. */
 

@@ -92,3 +92,9 @@ Version:
 * Chrome Frame update to 1.0.3
 * removed print style duplicate-style
 * move to responsive media-queries (test)
+
+(2011-07-10)
+* some changes to responsive media-queries
+* added max-width for responsive images
+* added some basic default styles for mobile devices
+

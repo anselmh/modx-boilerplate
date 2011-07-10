@@ -97,4 +97,4 @@ Version:
 * some changes to responsive media-queries
 * added max-width for responsive images
 * added some basic default styles for mobile devices
-
+* added inuit.css framework (this differs completely in usage as it provides all defualt styles etc.)

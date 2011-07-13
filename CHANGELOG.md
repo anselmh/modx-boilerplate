@@ -98,3 +98,7 @@ Version:
 * added max-width for responsive images
 * added some basic default styles for mobile devices
 * added inuit.css framework (this differs completely in usage as it provides all defualt styles etc.)
+
+(2011-07-13)
+* some fix to target table-buttons
+* 320up concept for grids

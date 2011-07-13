@@ -8,8 +8,8 @@ It is not a direct clone of the original HTML5Boilerplate by Paul Irish. I've st
 CONTENT:
 
 - HTML5 Boilerplate HTML Body
-- jQuery 1.6
-- basic CSS with reset
+- jQuery 1.6.2
+- basic CSS with normmalize.css
 - .htaccess File (MODX + Boilerplate)
 - favicon + apple touch icons
 - robots.txt for SE-settings
@@ -18,10 +18,12 @@ CONTENT:
 - webfontloadenhancer by Michael van der Laar
 - CSS Grid 1140px (fluid)
 - CSS Grid 978px (fixed)
+- Inuit CSS (fluid, ready-to-start)
 
 HOW TO USE THE RIGHT THINGS:
 
 If you want to use one of the Grid systems, please take the files of the "main_fluid_grid" / "main_978_grid" folder and replace the original ones with them.
+Important: Grid systems aren't optimized for the 320up concept. You have to adapt this from the default css.
 
 
 -----------------------------------------------------------------------------------------------------------

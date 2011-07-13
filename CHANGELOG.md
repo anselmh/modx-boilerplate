@@ -102,3 +102,4 @@ Version:
 (2011-07-13)
 * some fix to target table-buttons
 * 320up concept for grids
+* edited the wiki (github)

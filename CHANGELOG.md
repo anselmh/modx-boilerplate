@@ -103,3 +103,7 @@ Version:
 * some fix to target table-buttons
 * 320up concept for grids
 * edited the wiki (github)
+
+(2011-07-18)
+* updated / changed icons
+* added helper selector [hidden] to helper classes

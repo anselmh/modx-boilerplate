@@ -172,7 +172,7 @@ AddEncoding gzip                       svgz
                                        
 # webfonts                             
 AddType application/vnd.ms-fontobject  eot
-application/x-font-ttf    			   ttf ttc
+AddType application/x-font-ttf         ttf ttc
 AddType font/opentype                  otf
 AddType font/opentype                  woff
         # ^ hack to avoid chrome console warning: crbug.com/70283

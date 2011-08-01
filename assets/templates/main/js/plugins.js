@@ -1,37 +1,27 @@
 // usage: log('inside coolFunc', this, arguments);
 // paulirish.com/2009/log-a-lightweight-wrapper-for-consolelog/
 window.log = function(){
-  log.history = log.history || [];  
+  log.history = log.history || [];   // store logs to an array for reference
   log.history.push(arguments);
-  arguments.callee = arguments.callee.caller;  
-  if(this.console) console.log( Array.prototype.slice.call(arguments) );
+  if(this.console) {
+    arguments.callee = arguments.callee.caller;
+    var newarr = [].slice.call(arguments);
+    (typeof console.log === 'object' ? log.apply.call(console.log, console, newarr) : console.log.apply(console, newarr));
+  }
 };
-(function(b){function c(){}for(var d="assert,count,debug,dir,dirxml,error,exception,group,groupCollapsed,groupEnd,info,log,markTimeline,profile,profileEnd,time,timeEnd,trace,warn".split(","),a;a=d.pop();)b[a]=b[a]||c})(window.console=window.console||{});
+// make it safe to use console.log always
+(function(b){function c(){}for(var d="assert,count,debug,dir,dirxml,error,exception,group,groupCollapsed,groupEnd,info,log,timeStamp,profile,profileEnd,time,timeEnd,trace,warn".split(","),a;a=d.pop();){b[a]=b[a]||c}})((function(){try
+{console.log();return window.console;}catch(err){return window.console={};}})());
 
 // place any jQuery/helper plugins in here, instead of separate, slower script files.
 
 /*
- * Accessifyhtml5.js
- * Adds ARIA to new elements in browsers which don't do it by themselves.
- * Just drop into the bottom of your web page:
- * <script src="accessifyhtml5.js"></script>
- * 
- * Yes, it depends on jQuery.
- *
- * Souce: http://www.html5accessibility.com/index-aria.html
- *
- * Todo: Extend Script for other elements, probably even play with fallback JS for inaccessible audio/video.
- *
- * Acknowledgements: 
- * - @stevefaulkner for his work exploring html5 a11y,
- * - @paddya91 for object notation & document ready
- * - @ginader for reporting typo
- * - @webaxe for reporting an error
- */
-
+ * Accessifyhtml5.js - adds ARIA to new elements in browsers which don't do it by themselves.
+ * Depends on jQuery.
+ * Source: http://www.html5accessibility.com/index-aria.html
+*/
 $(document).ready(function() {
-    
-    var fixes = {
+	var fixes = {
         'header.site'   : { 'role':          'banner'        },
         'footer.site'   : { 'role':          'contentinfo'   },
         'article'       : { 'role':          'article'       },
@@ -41,11 +31,9 @@ $(document).ready(function() {
         'section'       : { 'role':          'region'        },
         '[required]'    : { 'aria-required': 'true'          }
     };
-
     $.each(fixes,
         function(index, item) {
             $(index).attr(item);
         }
-    );
-    
+    );   
 });

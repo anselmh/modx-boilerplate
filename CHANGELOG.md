@@ -107,3 +107,6 @@ Version:
 (2011-07-18)
 * updated / changed icons
 * added helper selector [hidden] to helper classes
+
+(2011-08-10)
+* minified plugins.js basic javascripts

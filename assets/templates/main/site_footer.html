@@ -4,10 +4,10 @@
 <script>
 yepnope.errorTimeout = 4000;
 yepnope([{
-	load: '//code.jquery.com/jquery.min.js',
+	load: 'http://ajax.googleapis.com/ajax/libs/jquery/1.6.3/jquery.min.js',
 	callback: function (url, result, key) {
 		if (!window.jQuery) {
-			yepnope('[[++base_url]]assets/templates/main/js/libs/jquery-1.6.2.min.js');
+			yepnope('[[++base_url]]assets/templates/main/js/libs/jquery-1.6.3.min.js');
 		}
 	}
 }, {

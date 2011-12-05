@@ -124,4 +124,12 @@ Version:
 * fixes #71 SEO title tag improvement
 
 (2011-12-05)
-* 
+* updated htaccess
+* updated css classes from h5bp
+* changed initial font values
+* added notice for offline manifest
+* update Modernizr to 2.1pre
+* update accessify and update GA snippet 
+* update PIE and move 
+* Remove yep nope and change modx-path-var
+* change clearfix for i.e.

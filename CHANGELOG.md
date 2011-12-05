@@ -110,3 +110,18 @@ Version:
 
 (2011-08-10)
 * minified plugins.js basic javascripts
+
+(2011-08-14)
+* enabled gzip for favicon
+
+(2011-09-12)
+* Correct Expires header to `application/x-font-ttf
+* jQuery free version of accessify.js
+* update to jQuerry 1.6.3
+* added new console api methods to console.log protection
+
+(2011-09-20)
+* fixes #71 SEO title tag improvement
+
+(2011-12-05)
+* 

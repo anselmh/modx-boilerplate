@@ -184,7 +184,7 @@ img, object, embed {
 /* Contain floats: nicolasgallagher.com/micro-clearfix-hack/ */ 
 .clearfix:before, .clearfix:after { content: ""; display: table; }
 .clearfix:after { clear: both; }
-.clearfix { zoom: 1; }
+.clearfix { *zoom: 1; }
 
 
 /* Print styles. Inlined to avoid required HTTP connection: www.phpied.com/delay-loading-your-print-css/ */ 

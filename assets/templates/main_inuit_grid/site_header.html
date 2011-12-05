@@ -13,7 +13,7 @@
 	<title>[[*pagetitle]] - [[++site_name]]</title>
 	<!-- change RSS ID or remove next line -->
 	<link rel="alternate" type="application/rss+xml" title="[[++site_name]] RSS Feed" href="[[~1]]">
-	<meta name="description" content="[[*introtext:empty=`[[*content:strip_tags:strip]]`:limit=`200`]]">
+	<meta name="description" content="[[*introtext:empty=`[[*content:strip_tags]]`:limit=`200`]]">
 	<meta name="author" content="[[If? &subject=`[[*publishedby]]` &operator=`>` &operand=`0` &then=`[[*publishedby:userinfo=`fullname`]]` &else=`[[*createdby:userinfo=`fullname`]]`]]" />
 	<meta name="keywords" content="" />
 	

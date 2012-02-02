@@ -84,7 +84,7 @@ ALL supporters and contributors of the great HTML5Boilerplate:
 - https://github.com/scottjehl for https://github.com/scottjehl/Respond
 - the MODX Revolution team for the whole MODX system
 - Anselm Hannemann, http://anselm.novolo.de/
-
+- Jeroen Kenters, http://kenters.com/
 
 BUGS and FEATURE REQUESTS:
 

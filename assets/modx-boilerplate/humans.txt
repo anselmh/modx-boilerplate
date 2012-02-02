@@ -10,6 +10,7 @@
 
 /* THANKS */
   Creator: Anselm Hannemann
+  Package from: Jeroen Kenters, http://kenters.com/
   Company: Novolo Designagentur
   Site: http://anselm.novolo.de/
   Site: http://www.novolo.de/

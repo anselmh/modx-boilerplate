@@ -1,9 +1,5 @@
 // load all inline scripts here
 
-// Code for Google Analytics | Change UA-XXXXX-X to be your site's ID
-var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.src='//www.google-analytics.com/ga.js';s.parentNode.insertBefore(g,s)}(document,'script'))
-
-
 //Code for Facebook XBML implementation. Cut off if not needed. Please paste your own App-ID at 'AppID' to get it working
 window.fbAsyncInit = function() {
 	FB.init({appId: 'AppID', status: true, cookie: true,

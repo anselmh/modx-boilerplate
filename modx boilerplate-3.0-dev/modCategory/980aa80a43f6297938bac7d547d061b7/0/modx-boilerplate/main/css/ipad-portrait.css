@@ -1,0 +1,12 @@
+/*	MODX-Boilerplate CSS by Anselm Hannemann (www.novolo.de) based on the incredible HTML5 Boilerplate	*/
+/*  iPad PORTRAIT adaption styles here  */
+
+html{
+	font-size:1.125em;
+}
+
+body{
+	-webkit-text-size-adjust:none;
+}
+
+.iosscroll {-webkit-overflow-scrolling: touch; overflow-scrolling: touch; overflow:scroll; }

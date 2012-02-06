@@ -1,5 +1,17 @@
 # CHANGELOG for MODX-Boilerplate
 
+**version: 3.0-dev** (2012-02-06)
+
+* major updates from HTML5Boilerplate3.0
+* CSS improvements:
+	* no more forced scrollbars (fixes some issues with JS)
+	* more robust .ir class
+	* better default typo
+	* removed default font-size, line-heights to provide more robust default
+* Chromeframe now serving as static IE-CC instead of JS
+* dropped defer attribute from JS in footer to avoid IE legacy bugs
+* meta viewport update to prevent iOS scaling bug
+
 **version: 3.0-dev** (2012-02-02)
 * drop inuit.css support
 * move GA to embed script

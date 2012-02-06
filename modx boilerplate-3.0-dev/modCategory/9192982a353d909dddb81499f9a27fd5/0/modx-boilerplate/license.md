@@ -1,8 +1,8 @@
 # MODX-Boilerplate LICENSE INFORMATION #
 
-MODX-Boilerplate is developed by Anselm Hannemann (http://www.anselm-hannemann.de/), Novolo Designagentur (http://www.novolo.de/en/).
-Copyright 2011 by Anselm Hannemann (contact via www.novolo.de) –  free redistribution of the code is allowed but requires a notice to the developer. Further commercial distribution of modified or unmodified copies of this code is not allowed. You are allowed to use the code in client-website-projects.
-Please contact the developer for more information.
+MODX-Boilerplate is developed by Anselm Hannemann (http://www.anselm-hannemann.com/). MODX Package written by Jeroen Kenters (http://kenters.com/).
+
+Copyright 2011-2012 by Anselm Hannemann –  free redistribution of the code is allowed. You are allowed to use the code in client-website-projects.
 
 This code is distributed to help other people implementing HTML5, CSS3 and other best-practices today. 
 

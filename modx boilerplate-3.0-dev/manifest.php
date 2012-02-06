@@ -26,7 +26,7 @@ Important: Grid systems aren\'t optimized for the 320up concept. You have to ada
 -----------------------------------------------------------------------------------------------------------
 WIKI / additional INSTRUCTIONS:
 
-PLEASE NOTE THAT WE NOW HAVE A WIKI ON GITHUB: https://github.com/smooth-graphics/modx-boilerplate/wiki
+PLEASE NOTE THAT WE NOW HAVE A WIKI ON GITHUB: https://github.com/anselmh/modx-boilerplate/wiki
 -----------------------------------------------------------------------------------------------------------
 
 
@@ -82,22 +82,22 @@ CREDITS GO TO:
 ALL supporters and contributors of the great HTML5Boilerplate:
 - http://html5boilerplate.com/
 - special thanks to: Paul Irish and Divya Manian for all they\'ve done with HTML5Boilerplate
-- https://github.com/paulirish/html5-boilerplate for the initial base and idea
+- https://github.com/h5bp/html5-boilerplate for the initial base and idea
 - https://github.com/modernizr for MOdernizr
 - https://github.com/yatil for https://github.com/yatil/accessifyhtml5.js
 - https://github.com/scottjehl for https://github.com/scottjehl/Respond
 - the MODX Revolution team for the whole MODX system
-- Anselm Hannemann, http://anselm.novolo.de/
-
+- Anselm Hannemann, http://anselm-hannemann.com/
+- Jeroen Kenters, http://kenters.com/
 
 BUGS and FEATURE REQUESTS:
 
 Please file all bugs, improvements or feature-requests in GitHub Issue Tracker! Thank you!',
     'license' => '# MODX-Boilerplate LICENSE INFORMATION #
 
-MODX-Boilerplate is developed by Anselm Hannemann (http://www.anselm-hannemann.de/), Novolo Designagentur (http://www.novolo.de/en/).
-Copyright 2011 by Anselm Hannemann (contact via www.novolo.de) –  free redistribution of the code is allowed but requires a notice to the developer. Further commercial distribution of modified or unmodified copies of this code is not allowed. You are allowed to use the code in client-website-projects.
-Please contact the developer for more information.
+MODX-Boilerplate is developed by Anselm Hannemann (http://www.anselm-hannemann.com/). MODX Package written by Jeroen Kenters (http://kenters.com/).
+
+Copyright 2011-2012 by Anselm Hannemann –  free redistribution of the code is allowed. You are allowed to use the code in client-website-projects.
 
 This code is distributed to help other people implementing HTML5, CSS3 and other best-practices today. 
 
@@ -376,6 +376,18 @@ Further commercial distribution of modified or unmodified copies of this code is
 Please contact the developer for more information: http://www.novolo.de/',
     'changelog' => '# CHANGELOG for MODX-Boilerplate
 
+**version: 3.0-dev** (2012-02-06)
+
+* major updates from HTML5Boilerplate3.0
+* CSS improvements:
+	* no more forced scrollbars (fixes some issues with JS)
+	* more robust .ir class
+	* better default typo
+	* removed default font-size, line-heights to provide more robust default
+* Chromeframe now serving as static IE-CC instead of JS
+* dropped defer attribute from JS in footer to avoid IE legacy bugs
+* meta viewport update to prevent iOS scaling bug
+
 **version: 3.0-dev** (2012-02-02)
 * drop inuit.css support
 * move GA to embed script
@@ -539,9 +551,9 @@ Please contact the developer for more information: http://www.novolo.de/',
       'vehicle_package' => 'transport',
       'vehicle_class' => 'xPDOObjectVehicle',
       'class' => 'modCategory',
-      'guid' => '6c8d70604b80ac9a13ed83a6311cec64',
+      'guid' => 'df6f532ae4983ae0318a6fed6fde8a5d',
       'native_key' => 1,
-      'filename' => 'modCategory/980aa80a43f6297938bac7d547d061b7.vehicle',
+      'filename' => 'modCategory/9192982a353d909dddb81499f9a27fd5.vehicle',
     ),
   ),
 );

@@ -22,7 +22,7 @@ Important: Grid systems aren't optimized for the 320up concept. You have to adap
 -----------------------------------------------------------------------------------------------------------
 WIKI / additional INSTRUCTIONS:
 
-PLEASE NOTE THAT WE NOW HAVE A WIKI ON GITHUB: https://github.com/smooth-graphics/modx-boilerplate/wiki
+PLEASE NOTE THAT WE NOW HAVE A WIKI ON GITHUB: https://github.com/anselmh/modx-boilerplate/wiki
 -----------------------------------------------------------------------------------------------------------
 
 
@@ -78,13 +78,13 @@ CREDITS GO TO:
 ALL supporters and contributors of the great HTML5Boilerplate:
 - http://html5boilerplate.com/
 - special thanks to: Paul Irish and Divya Manian for all they've done with HTML5Boilerplate
-- https://github.com/paulirish/html5-boilerplate for the initial base and idea
+- https://github.com/h5bp/html5-boilerplate for the initial base and idea
 - https://github.com/modernizr for MOdernizr
 - https://github.com/yatil for https://github.com/yatil/accessifyhtml5.js
 - https://github.com/scottjehl for https://github.com/scottjehl/Respond
 - the MODX Revolution team for the whole MODX system
-- Anselm Hannemann, http://anselm.novolo.de/
-
+- Anselm Hannemann, http://anselm-hannemann.com/
+- Jeroen Kenters, http://kenters.com/
 
 BUGS and FEATURE REQUESTS:
 

@@ -11,10 +11,10 @@
 /* THANKS */
   Creator: Anselm Hannemann
   Package from: Jeroen Kenters, http://kenters.com/
-  Company: Novolo Designagentur
-  Site: http://anselm.novolo.de/
-  Site: http://www.novolo.de/
-  Twitter: @anselmhannemann / @novolodesign
+  Company: Anselm Hannemann WebDevelopment
+  Site: http://anselm-hannemann.com/
+  Site: http://anselm-hannemann.com/
+  Twitter: @anselmhannemann / @anselm_h
   Location: Munich, Germany
 
 /* SITE */

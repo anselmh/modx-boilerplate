@@ -76,7 +76,10 @@ $builder->putVehicle($vehicle);
 $builder->setPackageAttributes(array(
     'readme' => file_get_contents($sources['source_assets'] . 'README.md'),
     'license' => file_get_contents($sources['source_assets'] . 'license.md'),
-    'changelog' => file_get_contents($sources['source_assets'] . 'CHANGELOG.md')
+    'changelog' => file_get_contents($sources['source_assets'] . 'CHANGELOG.md'),
+	'setup-options' => array(
+        'source' => $sources['build'] . 'setup.options.php'
+	),
 ));
 
 $builder->pack();

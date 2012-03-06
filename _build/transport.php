@@ -37,6 +37,7 @@ $modx->setLogTarget(XPDO_CLI_MODE ? 'ECHO' : 'HTML');
 $modx->loadClass('transport.modPackageBuilder','',false, true);
 $builder = new modPackageBuilder($modx);
 $builder->createPackage('MODX Boilerplate','3.0','dev');
+$builder->registerNamespace('modxbp',false,true,'{core_path}components/modxbp/');
 
 /* create category */
 $category= $modx->newObject('modCategory');
@@ -65,6 +66,9 @@ $vehicle = $builder->createVehicle($category,$attr);
 $vehicle->resolve('file',array(
     'source' => $sources['source_assets'],
     'target' => "return MODX_ASSETS_PATH;",
+));
+$vehicle->resolve('php',array(
+    'source' => $sources['resolvers'] . 'setupoptions.resolver.php',
 ));
 $vehicle->resolve('php',array(
     'source' => $sources['resolvers'].'postactions.resolver.php',

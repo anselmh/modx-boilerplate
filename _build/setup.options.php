@@ -7,6 +7,7 @@
  */
 /* set some default values */
 $values = array(
+	'tpl' => 'raw',
     'webfonts' => '0',
     'accessifyhtml5' => '1',
     'supportedIE' => '8',
@@ -18,6 +19,11 @@ $values = array(
 switch ($options[xPDOTransport::PACKAGE_ACTION]) {
     case xPDOTransport::ACTION_INSTALL:
     case xPDOTransport::ACTION_UPGRADE:
+		
+		$setting = $modx->getObject('modSystemSetting',array('key' => 'modxbp.tpl'));
+        if ($setting != null) { $values['tpl'] = $setting->get('value'); }
+        unset($setting);
+		
         $setting = $modx->getObject('modSystemSetting',array('key' => 'modxbp.webfonts'));
         if ($setting != null) { $values['webfonts'] = $setting->get('value'); }
         unset($setting);
@@ -118,9 +124,18 @@ $output = '
         cursor: default;
     }
 </style>
+
+<label for="modxbp-tpl">Choose your template to use:</label>
+<select name="tpl" id="modxbp-tpl" value="'.$values['tpl'].'">
+	<option value="raw">Raw (no grid)</option>
+	<option value="978">978px grid</option>
+	<option value="fluid">Fluid (1140px grid)</option>
+</select>
+
 <label for="modxbp-webfonts">Use webfonts (via @font-face, not typekit)?:</label>
 <input type="checkbox" name="webfonts" id="modxbp-webfonts" value="'.$values['webfonts'].'" checked />
 <br /><br /> 
+
 <label for="modxbp-googlewbfnt">Specify Google Webfont Families (<a href="https://developers.google.com/webfonts/docs/getting_started?hl=de#Syntax" target="_blank" title="see help at google webfont directory">?</a>):</label>
 <input type="text" name="webfonts" id="modxbp-webfonts" value="'.$values['webfonts'].'" placeholder="Droid+Sans:400,700|Droid+Sans+Mono" />
 

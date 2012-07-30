@@ -1,5 +1,18 @@
 # CHANGELOG for MODX-Boilerplate
 
+**version: 3.5** (2012-07-30)
+
+* minor updates from HTML5Boilerplate
+* Modernizr 2.6.1
+* jQuery 1.8
+* added SASS CSS, maximized CSS, compressed CSS
+* PIE.js/.htc 1.0.0
+* removed polyfills.js
+* updated plugins.js
+* removed iphone4.css + MQ due to massive failure on HighRes MacBookPro
+* updated grid CSS to minimized output
+* updated ancient browser dialog
+
 **version: 3.0-dev** (2012-02-06)
 
 * major updates from HTML5Boilerplate3.0

@@ -1,4 +1,24 @@
 # CHANGELOG for MODX-Boilerplate
+==================================================================
+==================================================================
+
+**version 4.0** (2012-11-25)
+
+* many updates coming from HTML5Boilerplate
+* dropped MODX-Package support
+* NOW again a CLEAN MODX template – simple and up-to-date
+* added "dead-simple" grid
+* dropped unmaintained 1140px grid
+* dropped 978px grid as I cannot recommend static grids anymore
+* Further improvements to `console` method stubbing
+* Update to jQuery 1.8.3
+* Update to Modernizr 2.6.2
+* restructured CSS directory
+* refactored head-files
+* changed main-div to class="main" from id="content" in favour of upcoming <main> element
+* added @viewport rule in CSS
+
+==================================================================
 
 **version: 3.5** (2012-07-30)
 
@@ -12,6 +32,8 @@
 * removed iphone4.css + MQ due to massive failure on HighRes MacBookPro
 * updated grid CSS to minimized output
 * updated ancient browser dialog
+
+==================================================================
 
 **version: 3.0-dev** (2012-02-06)
 
@@ -35,6 +57,8 @@
 * improve ChromeFrame
 * updated mobile viewport tag
 * initial MODX-package release
+
+==================================================================
 
 **version: 2.5-dev** 
 (2012-01-11)

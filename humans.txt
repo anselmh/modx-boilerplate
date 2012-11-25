@@ -10,11 +10,10 @@
 
 /* THANKS */
   Creator: Anselm Hannemann
-  Package from: Jeroen Kenters, http://kenters.com/
   Company: Anselm Hannemann WebDevelopment
   Site: http://anselm-hannemann.com/
-  Site: http://anselm-hannemann.com/
-  Twitter: @anselmhannemann / @anselm_h
+  Twitter: @anselmhannemann
+  ADN: @anselm
   Location: Munich, Germany
 
 /* SITE */

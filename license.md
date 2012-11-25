@@ -1,24 +1,17 @@
 # MODX-Boilerplate LICENSE INFORMATION #
 
-MODX-Boilerplate is developed by Anselm Hannemann (http://www.anselm-hannemann.com/). MODX Package written by Jeroen Kenters (http://kenters.com/).
+MODX-Boilerplate is developed by Anselm Hannemann (http://www.anselm-hannemann.com/).
 
-Copyright 2011-2012 by Anselm Hannemann –  free redistribution of the code is allowed. You are allowed to use the code in client-website-projects.
+Copyright 2011-2013 by Anselm Hannemann –  free redistribution of the code is allowed.
+You are allowed to use the code in client-website-projects for free.
 
 This code is distributed to help other people implementing HTML5, CSS3 and other best-practices today. 
-
 
 # APPLIED LICENSES #
 The following licenses are applied to the MODX-Boilerplate components:
 
-in general: GNU Public License v3
 Modernizr: MIT/BSD license
 jQuery: MIT/GPL license
-DD_belatedPNG: MIT license
-YUI Profiling: BSD license
-HTML5Doctor CSS reset: Public Domain
-CSS Reset Reloaded: Public Domain
-respond.js: Dual licensed under the MIT or GPL v2 licenses
-
 
 # FOLLWING COPIES OF LICENSES #
 

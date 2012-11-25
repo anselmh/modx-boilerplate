@@ -60,13 +60,6 @@ Be sure to check all important files before replacing them! I do not (and cannot
 - If you need more than basic HTML5 support enabling with modernizr please pack your own: http://modernizr.github.com/Modernizr/2.0-beta/ I only applied Audio,Cideo,Canvas,appCache,postMessage,InputTypes,InputAttributes.  No GeolocAPI,SVG,WebGL, SMIL support is enabled, too.
 - for how-to use the modernizr please read this: http://blogs.sitepoint.com/2011/03/08/regressive-enhancement-with-modernizr-and-yepnope/
 + added monderizr blog entry
-- If you need more than basic HTML5 support enabling with modernizer please pack your own: http://modernizr.github.com/Modernizr/2.0-beta/ I only applied Audio,Cideo,Canvas,appCache,postMessage,InputTypes,InputAttributes.  No GeolocAPI,SVG,WebGL, SMIL support is enabled, too.
-
-- If you want to add CSS3 behavior to IE<9 you can use the PIE.htc. You just have to add 
-	behavior: url(path/to/PIE.htc);
-  to your css properties. See here for more info: http://css3pie.com/documentation/getting-started/
-
-- I provided support for different devices with @media-queries. Please consider to either use all that stylesheet links in "site_header.html" or remove them to avoid dead links!
 
 ## CREDITS GO TO:
 

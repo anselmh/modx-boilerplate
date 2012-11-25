@@ -19,6 +19,8 @@ It is not a direct clone of the original HTML5Boilerplate by Paul Irish. I've st
 
 If you want to use a Grid system, please take the files of the "main-grid" folder.
 
+To create your icon-sets you can use: http://frischmilch.github.com/DPS-App-Icons-Template/
+
 -----------------------------------------------------------------------------------------------------------
 
 ## WIKI / additional INSTRUCTIONS:

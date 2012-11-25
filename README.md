@@ -1,23 +1,30 @@
 ## "MODX Boilerplate" is a HTML5/CSS3/jQuery based frontend template for further usage.
-----------------------------------------
 
-** Please check all these files for changes and consider to not overwrite your own settings / changes / code!!!
-Be sure to check all important files before replacing them! I do not (and cannot) give warranty for that… **
-----------------------------------------
+-----------------------------------------------------------------------------------------------------------
+
+Please check all these files for changes and consider to not overwrite your own settings / changes / code! Be sure to check all important files before replacing them! I do not (and cannot) give warranty for that…
+
+-----------------------------------------------------------------------------------------------------------
 
 This template can be used with MODX CMF Revolution and is thought as a basic rock solid HTML5 website template. It has some speed improvements, fallbacks for old browsers and IE.
 
-** NOTE:**
+-----------------------------------------------------------------------------------------------------------
+
+NOTE:  
 It is not a direct clone of the original HTML5Boilerplate by Paul Irish. I've stripped some content which is not needed and implemented some other speedy scripts.
+
+-----------------------------------------------------------------------------------------------------------
 
 ## HOW TO USE THE RIGHT THINGS:
 
 If you want to use a Grid system, please take the files of the "main-grid" folder.
 
 -----------------------------------------------------------------------------------------------------------
+
 ## WIKI / additional INSTRUCTIONS:
 
 PLEASE NOTE THAT WE NOW HAVE A WIKI ON GITHUB: https://github.com/anselmh/modx-boilerplate/wiki
+
 -----------------------------------------------------------------------------------------------------------
 
 ## SETUP:

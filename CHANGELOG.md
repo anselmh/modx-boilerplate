@@ -2,11 +2,15 @@
 ==================================================================
 ==================================================================
 
-**version 4.0.1** (2013-01-22)
+### 4.0.2 (2013-02-05)
+
+* updated to latest jQuery 1.9.1 including source maps
+
+### 4.0.1 (2013-01-22)
 
 * updated jQuery to 1.9.0
 
-**version 4.0** (2012-11-25)
+### version 4.0 (2012-11-25)
 
 * many updates coming from HTML5Boilerplate
 * dropped MODX-Package support
@@ -24,7 +28,7 @@
 
 ==================================================================
 
-**version: 3.5** (2012-07-30)
+### version: 3.5 (2012-07-30)
 
 * minor updates from HTML5Boilerplate
 * Modernizr 2.6.1
@@ -39,7 +43,7 @@
 
 ==================================================================
 
-**version: 3.0-dev** (2012-02-06)
+### version: 3.0-dev (2012-02-06)
 
 * major updates from HTML5Boilerplate3.0
 * CSS improvements:
@@ -64,12 +68,13 @@
 
 ==================================================================
 
-**version: 2.5-dev** 
-(2012-01-11)
+### version: 2.5-dev (2012-01-11)
+
 * updated htaccess to work with MODX
 * optimized GA snippet to work asynchron
 
-**version: 2.5-dev** (2011-12-21)
+### version: 2.5-dev (2011-12-21)
+
 * change paths
 * change dirs for a components compliant system
 * updated local jQuery

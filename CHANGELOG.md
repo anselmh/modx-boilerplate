@@ -2,6 +2,14 @@
 ==================================================================
 ==================================================================
 
+### 5.0 (2013-05-02)
+
+* updated jQuery to 2.0.0
+* updated README with information regarding jQuery 2.0
+* updated normalize.css
+* updated GA snippet to be protocol relative (now supported by GA itself)
+* now using the [<main> element](http://helloanselm.com/2013/main-element/)
+
 ### 4.0.2 (2013-02-05)
 
 * updated to latest jQuery 1.9.1 including source maps
@@ -88,8 +96,8 @@
 * changed initial font values
 * added notice for offline manifest
 * update Modernizr to 2.1pre
-* update accessify and update GA snippet 
-* update PIE and move 
+* update accessify and update GA snippet
+* update PIE and move
 * Remove yep nope and change modx-path-var
 * change clearfix for i.e.
 
@@ -134,7 +142,7 @@
 * fixed #63: <input type=search> then you're getting a search input WARNING: is unstylable in webkit now.
 * fixed #61: move x-ua to htacess to not break validation and to not let ie fall into compat-mode
 * added Chrome frame for IE6
-* fixed #54: added license information. 
+* fixed #54: added license information.
 * quick fix on 978px grid
 * changes to README
 * fixed #64: Modernizr update to 2.0.6
@@ -194,7 +202,7 @@
 1.1
 * applied some changes of HTML5Boilerplate v1.0rcstripped
 	* HTML changes (better performance)
-	* structral improvements 
+	* structral improvements
 	- less code, less files
 	+ humans.txt
 * change from control.js (http://yepnopejs.com/) to yepnope.js (better integration with modernizr, easier to use)
@@ -208,7 +216,7 @@
 * changed meta-author to "publishedby" output from MODX
 [Thanks to Romain from 'modxcms.com/forums']
 
-1.0.1		
+1.0.1
 + added CSSGrid (1140px) as optional Stylesheet / site_header
 
 1.0		initial commit

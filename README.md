@@ -10,7 +10,7 @@ This template can be used with MODX CMF Revolution and is thought as a basic roc
 
 -----------------------------------------------------------------------------------------------------------
 
-NOTE:  
+NOTE:
 It is not a direct clone of the original HTML5Boilerplate by Paul Irish. I've stripped some content which is not needed and implemented some other speedy scripts.
 
 -----------------------------------------------------------------------------------------------------------
@@ -34,7 +34,7 @@ PLEASE NOTE THAT WE NOW HAVE A WIKI ON GITHUB: https://github.com/anselmh/modx-b
 1. Download all files and upload to your server in right folder structure:
    - .htaccess/ICO/Touch-Icons and humans.txt, PIE.htc into root directory of your webhosting setup
    - put the other files into your /assets/... structure as you need them or as it's given in my folder structure.
-   - Please: If you change template folder name check to change template name in chunks, too!!! 
+   - Please: If you change template folder name check to change template name in chunks, too!!!
 2. Customize all paths, URLs and App-IDs in the template files
 3. Create the following new chunks in MODX Manager:
 	- "site_header"
@@ -59,6 +59,7 @@ Be sure to check all important files before replacing them! I do not (and cannot
 
 ## IMPORTANT NOTICES FOR DEVELOPMENT:
 
+- This repository uses [jQuery 2.0](http://blog.jquery.com/2013/04/18/jquery-2-0-released/). If you need old browser support, please use jQuery 1.9.x. If you need compatibility, consider using the [jQuery Migrate Plugin](https://github.com/jquery/jquery-migrate/#readme)
 - If you need more than basic HTML5 support enabling with modernizr please pack your own: http://modernizr.github.com/Modernizr/2.0-beta/ I only applied Audio,Cideo,Canvas,appCache,postMessage,InputTypes,InputAttributes.  No GeolocAPI,SVG,WebGL, SMIL support is enabled, too.
 - for how-to use the modernizr please read this: http://blogs.sitepoint.com/2011/03/08/regressive-enhancement-with-modernizr-and-yepnope/
 + added monderizr blog entry

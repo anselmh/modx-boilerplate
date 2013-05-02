@@ -12,12 +12,12 @@
 
     <meta name="description" content="[[*introtext:empty=`[[*content:strip_tags]]`:limit=`200`]]">
     <meta name="author" content="[[If? &subject=`[[*publishedby]]` &operator=`>` &operand=`0` &then=`[[*publishedby:userinfo=`fullname`]]` &else=`[[*createdby:userinfo=`fullname`]]`]]" />
-    
+
     <!-- Remove next line if you are NOT using multiple domains OR using Canonical Snippet (http://modxcms.com/extras/package/?package=705). | Google Canonical Tag SEO -->
     <link rel="canonical" href="[[++site_url]][[*id:isnot=`[[++site_start]]`:then=`[[~[[*id]]]]`]]">
-    
+
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
-    
+
     <!-- Mobile viewport optimized: h5bp.com/viewport -->
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="[[++site_url]]assets/modx-boilerplate/main/css/normalize.css">
@@ -34,5 +34,5 @@
     <header>
         <!-- use this wrapper for your header of website with logotype, navigation etc. -->
     </header>
-    <div class="main" role="main">
+    <main class="main" role="main">
         <!-- Add your main content here -->

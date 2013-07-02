@@ -11,8 +11,8 @@
 /* THANKS */
   Creator: Anselm Hannemann
   Company: Anselm Hannemann WebDevelopment
-  Site: http://anselm-hannemann.com/
-  Twitter: @anselmhannemann
+  Site: http://helloanselm.com/
+  Twitter: @helloanselm
   ADN: @anselm
   Location: Munich, Germany
 

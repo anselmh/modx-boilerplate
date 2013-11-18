@@ -2,6 +2,17 @@
 ==================================================================
 ==================================================================
 
+### 6.0 (2013-11-18)
+
+* Updated normalize.css to 2.1.3
+* Updated jQuery to 2.0.3
+* Updated [Modernizr to 2.7.0](http://modernizr.com/download/)
+* Updated ht.access to [Apache Server Configs 2.0](https://github.com/h5bp/server-configs-apache)
+* Converted from Chromeframe to Browsehappy
+* Added .editorconfig file
+* Updated Google Analytics snippet
+* Updated viewport rules (meta, main.css)
+
 ### 5.0.1 (2013-07-03)
 
 * Updated jQuery to 2.0.2
